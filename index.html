@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moedas</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="cabecalho">
+        <h1>Conversor de moedas</h1>
+    </div>
+
+    <div id="principal">
+        <p class="paragrafo">Converter <b>de</b>:</p>
+        <select class="select">
+            <option>R$ Real Brasileiro</option>
+        </select>
+
+        <p class="paragrafo">Converter <b>Para:</b></p>
+        <select class="select" id="moeda-convertida">
+            <option></option>
+            <option>US$ Dólar americano</option>
+            <option>€ Euro</option>
+        </select>
+
+        <p class="paragrafo"><b>Valor</b>:</p>
+        <input id="input" type="number">
+        <button id="botao">Converter</button>
+
+        <div id="secundaria">
+            <div class="interna">
+                <img src="./img/brasil.png" alt="brasil">
+                <p class="paragrafo">Real</p>
+                <p class="paragrafo-negrito" id="input-real"></p>
+            </div>
+
+            <img  id="seta" src="./img/seta.png" alt="seta">
+
+            <div class="interna">
+                <img src="./img/eua.png" id="bandeira-convertida">
+                <p class="paragrafo" id="moeda"></p>
+                <p class="paragrafo-negrito" id="input-moedas"></p>
+            </div>
+        </div>
+    </div>
+    <div id="direitos">
+        <p>Todos os direitos reservados a <i><a href="#">Daniel Luiz</a></i></p>
+        <p>Copyright © 2021</p>
+    </div>
+</body>
+<script src="./js/script.js"></script>
+</html>

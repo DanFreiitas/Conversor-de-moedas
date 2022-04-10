@@ -1,0 +1,132 @@
+/* font-family: 'Roboto', sans-serif; */
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#cabecalho {
+    background-color: #4682B4;
+    width: 375px;
+    height: 66px;    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+h1 {
+    color: #F8F8FF;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#principal {
+    width: 375px;
+    background-color: #B0C4DE;
+    padding: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragrafo {
+    margin-bottom: 6px;
+    color: #778899;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    
+}
+
+.select {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 327px;
+    height: 48px;
+    left: 24px;
+    top: 113px;
+    margin-bottom: 23px;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#input {
+    width: 327px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    margin-bottom: 23px;
+    outline: none;
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#botao {
+    width: 327px;
+    height: 48px;
+    left: 24px;
+    top: 374px;
+    background-color: #778899;
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 23px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F8F8FF;
+}
+#botao:active {
+    opacity: 0.6;
+}
+
+#secundaria {
+    display: none;
+    border: 1px solid #4682B4;
+    background-color: #c2d0e2	;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.interna {
+    text-align: center;
+}
+
+#seta {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.paragrafo-negrito {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#direitos {
+    padding-top: 23px;
+    text-align: center;
+    color: #778899;
+}
+#direitos a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #778899;
+}
