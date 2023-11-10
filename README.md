@@ -1,10 +1,17 @@
-# Conversor de moedas online
-> Sistema de corversão automático de moedas 
-> em tempo real com uso da API https://economia.awesomeapi.com.br.
+# Descrição 
+> Sistema de conversão de moeda REAL para EURO ou DOLAR. O sistema embora simples e com poucos recursos em sua construção é extremamente funcional por fazer uso de uma API online que pega o valor da cotação do dia.
+>
+> Link da API: https://economia.awesomeapi.com.br.
+# Solução 
+> Conversão de REAL para EURO ou DOLAR.
+# Construção
+> - HTML
+> - CSS
+> - JavaScript
+# Funções 
+> - Converter REAL para EURO
+> - Converter REAL para DOLAR
 
-## Funções
-- Conversão de Real para EURO
-- Conversão de Real para Dolar
+### Link para visualização
+> https://danfreiitas.github.io/Conversor-de-moedas/
 
-_Observação_
-É possível adicionar outras moedas moedas ao sistema 
