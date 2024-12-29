@@ -21,13 +21,16 @@
 
     <div id="principal">
         <p class="paragrafo">Converter <b>de</b>:</p>
-        <select class="select">
+        <select class="select" id="moeda-origem">
             <option>R$ Real Brasileiro</option>
+            <option>US$ Dólar americano</option>
+            <option>€ Euro</option>
         </select>
 
         <p class="paragrafo">Converter <b>Para:</b></p>
         <select class="select" id="moeda-convertida">
             <option></option>
+            <option>R$ Real Brasileiro</option>
             <option>US$ Dólar americano</option>
             <option>€ Euro</option>
         </select>
@@ -38,12 +41,12 @@
 
         <div id="secundaria">
             <div class="interna">
-                <img src="./img/brasil.png" alt="brasil">
+                <img src="./img/brasil.png" alt="brasil" id="bandeira-origem">
                 <p class="paragrafo">Real</p>
                 <p class="paragrafo-negrito" id="input-real"></p>
             </div>
 
-            <img  id="seta" src="./img/seta.png" alt="seta">
+            <img id="seta" src="./img/seta.png" alt="seta">
 
             <div class="interna">
                 <img src="./img/eua.png" id="bandeira-convertida">
